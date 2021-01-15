@@ -10,7 +10,7 @@ This is a bare bones example.
 The follow terminal commands start the scala side and
 the bundler side in watch mode suitable for development.
 A production build would contain other processing steps
-in both build build specifications.
+in both build specifications.
 
 This build will update the scala module upon sbt
 rebuild but it does not do module-level HMR, which
@@ -34,7 +34,7 @@ A bundle size visualizer is included so open 2 pages:
 
 If you run `npm run build` you will see in the build folder, a
 separate module something like `621.Scala.js`. Webpack automatically
-sees the react dyanmic module and creates a bundle whose name
+sees the react dynamic module and creates a bundle whose name
 reflects the webpack output bundle name. It transforms the 
 scala.js output `HeavyFeature` class into a name resembling
 the webpack configuration, not the scala.js linker output model.
