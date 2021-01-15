@@ -3,8 +3,6 @@ Very small example of dynamic module loading using scala.js.
 The UI uses react, although that is not critical to show
 dynamic module loading.
 
-The example only uses the "fast" version of compilation.
-
 This is a bare bones example.
 
 ## Running with Reload
@@ -54,4 +52,4 @@ sbt webui/fullLinkJS
 npm run start
 ```
 
-Then open `http://localhost:8080'.
+Then open `http://localhost:8080`.
