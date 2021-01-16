@@ -52,4 +52,6 @@ sbt webui/fullLinkJS
 npm run start
 ```
 
-Then open `http://localhost:8080`.
+Then open:
+
+* app: http://localhost:8080

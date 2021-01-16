@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production --profile --json=compilation-stats.json",
-    "watch": "webpack serve --mode development --hot --open",
+    "watch": "webpack serve --mode development --hot --open --disable-host-check --host=\"0.0.0.0\" --watch-content-base",
     "start": "npx http-server ./build"
   },
   "author": "",
