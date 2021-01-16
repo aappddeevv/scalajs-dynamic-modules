@@ -38,6 +38,7 @@ dist/*
 project/metals.sbt
 project/project
 build
+dist
 .vscode
 *stats*
 .bloop/

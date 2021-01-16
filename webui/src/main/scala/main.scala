@@ -19,7 +19,6 @@ object main {
         display = "block"
       }
     })(
-      // standard "string" component, loaded with the main bundle
       div("Demonstration of scala.js dynamic module splitting. The next block is dynamically loaded."),
       Suspense("HeavyFeature not loaded yet!")(
         DynamicHeavyFeatureD(new HeavyFeature.Props {
